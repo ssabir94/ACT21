@@ -25,3 +25,58 @@ h1 {
   text-align: center;
   color: #0d9488;
 }
+
+#formulario-tareas {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+#formulario-tareas input {
+  width: 100%;
+  max-width: 320px;
+  padding: 10px 12px;
+  border: 1px solid #cfe8e8;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+#formulario-tareas input:focus {
+  outline: 2px solid #0d9488;
+  border-color: #0d9488;
+}
+
+#formulario-tareas button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  background: #0d9488;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#formulario-tareas button:hover {
+  background: #0f766e;
+}
+
+#borrar-tareas {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+#borrar-tareas button {
+  padding: 8px 14px;
+  border: 1px solid #0d9488;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #0d9488;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#borrar-tareas button:hover {
+  background: #dff3f1;
+}
